@@ -1,0 +1,70 @@
+
+NEW PATIENT INTAKE FORM
+
+Medical Center
+123 Healthcare Drive
+Medical City, MC 12345
+Phone: (555) 123-4567
+Fax: (555) 123-4568
+
+================================================================================
+
+PATIENT INFORMATION
+Name: Swapnil Singh
+Date of Birth: 05/05/2004
+Phone: +91- 9871075991
+Email: swapnilsingh2468@gmail.com
+Appointment Date: Thursday, September 04, 2025
+Appointment Time: 09:00
+Doctor: Dr. Smith
+
+INSURANCE INFORMATION
+Primary Insurance: United Healthcare
+Member ID: ABC12345678
+Group Number: GRP1234
+
+================================================================================
+
+MEDICAL HISTORY (Please complete the following sections)
+
+Current Medications:
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+Allergies:
+_________________________________________________________________
+_________________________________________________________________
+
+Previous Surgeries:
+_________________________________________________________________
+_________________________________________________________________
+
+Family Medical History:
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+Current Symptoms/Reason for Visit:
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+Emergency Contact:
+Name: _________________________________ Phone: _______________
+Relationship: _____________________________
+
+================================================================================
+
+CONSENT
+I consent to treatment and authorize the release of medical information 
+for insurance purposes.
+
+Patient Signature: _______________________________ Date: __________
+
+================================================================================
+
+Please complete this form and bring it to your appointment, or submit it 
+online through our patient portal.
+
+Thank you for choosing Medical Center!

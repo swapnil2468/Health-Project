@@ -1,0 +1,6 @@
+streamlit
+pandas
+openpyxl
+faker
+reportlab
+twilio

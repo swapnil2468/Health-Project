@@ -1,0 +1,71 @@
+Build a complete end-to-end Python project for a **Medical Appointment Scheduling AI Agent** using the following stack:
+
+- LangGraph + LangChain (for multi-agent orchestration and integrations)
+- Streamlit (for chatbot UI)
+- Pandas + OpenPyXL (for CSV and Excel operations)
+- SMTP (for email sending)
+- Twilio (for SMS reminders)
+
+The system must automatically generate all required synthetic data and files.  
+
+### Core Requirements:
+
+1. **Synthetic Data Creation**
+   - Generate a CSV file `patients.csv` with 50 synthetic patients.  
+     Fields: patient_id, name, DOB, phone, email, insurance_provider, member_id, group_number, visit_history.  
+   - Generate an Excel file `doctor_schedule.xlsx` with availability for 3 doctors across 5 working days.  
+
+2. **Patient Greeting & Intake**
+   - Collect patient name, DOB, preferred doctor, and location via chatbot.
+   - Validate inputs using simple NLP rules.
+
+3. **Patient Lookup**
+   - Search in `patients.csv` to detect new vs returning patient.
+
+4. **Smart Scheduling Logic**
+   - New patient = 60-minute slot.  
+   - Returning patient = 30-minute slot.  
+   - Check `doctor_schedule.xlsx` for availability and assign the correct slot.
+
+5. **Calendar Integration**
+   - Simulate Calendly by updating `doctor_schedule.xlsx` when a booking is made.
+
+6. **Insurance Collection**
+   - Collect insurance details (carrier, member ID, group number).
+   - Store alongside patient record.
+
+7. **Appointment Confirmation**
+   - Export appointment details into `appointments.xlsx`.  
+   - Send confirmation via **email** and **SMS**.  
+
+8. **Form Distribution**
+   - After confirmation, send the **New Patient Intake Form** (use a sample auto-generated PDF in code) to the patient’s email.  
+
+9. **Reminder System**
+   - Send 3 automated reminders via email + SMS.  
+     - Reminder 1: simple reminder.  
+     - Reminder 2: ask if intake form is filled.  
+     - Reminder 3: confirm visit or capture reason for cancellation.  
+
+10. **Admin Reporting**
+    - Generate daily report `admin_report.xlsx` with list of appointments, patient type, insurance info, and status.  
+
+11. **Chatbot Interface**
+    - Use **Streamlit** chatbot UI for end-to-end flow:
+      Greeting → Patient Lookup → Scheduling → Insurance → Confirmation → Reminders.
+
+### Deliverables (auto-generated inside Replit):
+- `app.py` (main Streamlit chatbot app)  
+- `patients.csv` (synthetic patient database)  
+- `doctor_schedule.xlsx` (synthetic doctor availability)  
+- `appointments.xlsx` (auto-generated bookings)  
+- `admin_report.xlsx` (daily report)  
+- Sample intake form PDF (auto-generated)  
+- `requirements.txt` (with all dependencies)
+
+### Success Criteria:
+- Complete flow from greeting to confirmation works in Streamlit.  
+- All synthetic data is auto-generated on first run.  
+- Appointments update doctor availability correctly.  
+- Emails + SMS are sent (use placeholders or mock APIs if needed).  
+- Code runs fully inside Replit without external setup.  
